@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('jericho-android.3.3.jar'))

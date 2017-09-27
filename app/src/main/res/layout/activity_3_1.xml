@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:padding="16dp"
+            >
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:hint="제목을 입력해주세요"
+                android:maxLength="50"
+                android:textSize="16dp"
+                android:background="@drawable/border2"
+                />
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:maxLength="10"
+                android:hint="자치구를 입력해주세요"
+                android:textSize="16dp"
+                android:background="@drawable/border2"
+                />
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:padding="10dp"
+                android:gravity="top"
+                android:hint="내용을 입력해주세요"
+
+                android:textSize="16dp"
+                android:background="@drawable/border2"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="등록"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorSubAccent"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="취소"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorSubAccent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+

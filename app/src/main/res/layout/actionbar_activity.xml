@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorSubAccent"
+        android:text="우리동네 녹색장터"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/textview"
+        />
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignLeft="@+id/textview"
+        android:background="@drawable/back3"
+        />
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignRight="@+id/textview"
+        android:background="@drawable/home3"
+        />
+</RelativeLayout>
